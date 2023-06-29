@@ -10,7 +10,7 @@ import pandas as pd
 import pickle
 
 #Loading up the Classification model we created
-pkl_filename = "stacking_classifier.pkl"
+pkl_filename = "Supervised ML\stacking_classifier.pkl"
 with open(pkl_filename, 'rb') as file:
     pickle_model = pickle.load(file)
 
@@ -37,7 +37,7 @@ def predict(CityTier, DurationOfPitch, NumberOfPersonVisiting, NumberOfFollowups
     #elif ProductPitched == 'Ideal':
     #    ProductPitched = 4    
 
-    prediction = model.predict(pd.DataFrame([[CityTier, DurationOfPitch, NumberOfPersonVisiting, NumberOfFollowups, PreferredPropertyStar, NumberOfTrips, 
+    prediction = pickle_model.predict(pd.DataFrame([[CityTier, DurationOfPitch, NumberOfPersonVisiting, NumberOfFollowups, PreferredPropertyStar, NumberOfTrips, 
             Passport, PitchSatisfactionScore, OwnCar, NumberOfChildrenVisiting, MonthlyIncome, Age_Adult, Age_Senior,
             TypeofContact_Self_Enquiry, Occupation_Large_Business, Occupation_Salaried, Occupation_Small_Business,
             Gender_Male, ProductPitched_Deluxe, ProductPitched_King, ProductPitched_Standard, ProductPitched_Super_Deluxe,
