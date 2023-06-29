@@ -10,7 +10,7 @@ import pandas as pd
 import pickle
 
 #Loading up the Classification model we created
-pkl_filename = "Supervised ML\stacking_classifier.pkl"
+pkl_filename = "stacking_classifier.pkl"
 with open(pkl_filename, 'rb') as file:
     pickle_model = pickle.load(file)
 
