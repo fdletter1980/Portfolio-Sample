@@ -14,4 +14,4 @@ Analysis includes:
 	Stacking Classifier
 	Comparing All Models
 
-Built a simple Streeamlit app on top for inferences on the selected model.
+Built a simple Streamlit app on top for inferences on the selected model.
