@@ -52,7 +52,7 @@ def predict(CityTier, DurationOfPitch, NumberOfPersonVisiting, NumberOfFollowups
 
 
 st.title('Travel Package Purchase Prediction')
-st.image(Supervised ML\Travel Bag.webp)
+st.image("Supervised ML\Travel Bag.webp")
 st.header('Enter the characteristics of the Travel Package:')
 CityTier = st.number_input('CityTier:', min_value=0, max_value=10, value=0)
 DurationOfPitch = st.number_input('DurationOfPitch:', min_value=0, max_value=10, value=0)
