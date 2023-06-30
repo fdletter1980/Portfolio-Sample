@@ -13,3 +13,5 @@ Analysis includes:
 	XGBoost Classifier
 	Stacking Classifier
 	Comparing All Models
+
+Built a simple Streeamlit app on top for inferences on the selected model.
