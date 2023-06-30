@@ -94,7 +94,7 @@ if st.button('Predict Price'):
             Gender_Male, ProductPitched_Deluxe, ProductPitched_King, ProductPitched_Standard, ProductPitched_Super_Deluxe,
             MaritalStatus_Married, MaritalStatus_Single, MaritalStatus_Unmarried, Designation_Executive , Designation_Manager,
             Designation_Senior_Manager, Designation_VP)
-    st.success(f'The prediction is ${prediction[0]:.2f}')
+    st.success(f'The prediction is {prediction[0]:.2f}')
 
 
 # In[ ]:
