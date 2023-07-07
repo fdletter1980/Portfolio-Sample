@@ -12,7 +12,7 @@ with open(pkl_filename, 'rb') as file:
 
 print("Enter the following details to make the predictions:- n")
 
-Avg_Credit_Limit = int(intput("Enter The Average Credit Limit:- "))
+Avg_Credit_Limit = int(input("Enter The Average Credit Limit:- "))
 Total_Credit_Cards = int(intput("Enter Total # of Credit Cards:- "))
 Total_visits_bank = int(intput("Enter Total Visits to Bank:- "))
 Total_visits_online = int(intput("Enter Total Visits Online:- "))
