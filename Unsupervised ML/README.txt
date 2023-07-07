@@ -10,5 +10,5 @@ Analysis includes:
 
 
 Containerized model using following commands (and run prediction inference):
-- docker build -t dockerfileclustering .
-- docker run -it  dockerfileclustering
+- docker build -t dockerfile .
+- docker run -it  dockerfile
