@@ -1,17 +1,6 @@
-Supervised Classification Problem
+Generative AI and LLM Work
 
-To predict which customer is more likely to purchase the newly introduced travel package.
+1. LLM on single data set with agent
 
-Analysis includes:
-	Extensive EDA
-	Hyperparameter Tuning
-	Decision Tree Classifier
-	Random Forest Classifier
-	Bagging Classifier
-	AdaBoost Classifier
-	Gradient Boosting Classifier
-	XGBoost Classifier
-	Stacking Classifier
-	Comparing All Models
-
-Built a simple Streamlit app on top for inferences on the selected model.
+- Goal: to connect a LLM with a specific data set and be able to query with an agent to understand content.
+- Components: OpenAI (LLM) + LlamaIndex + LangChain
